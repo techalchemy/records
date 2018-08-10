@@ -6,4 +6,5 @@ verify_ssl = true
 pytest = "*"
 
 [packages]
+tablib = {git = "https://github.com/techalchemy/tablib.git", editable = true, extras = ["pandas"]}
 records = {path = ".", extras = ["pg"], editable = true}

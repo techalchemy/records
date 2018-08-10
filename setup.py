@@ -47,10 +47,10 @@ class PublishCommand(Command):
 
 requires = ['SQLAlchemy;python_version>="3.0"',
             'SQLAlchemy<1.1;python_version<"3.0"',
-            'openpyxl<2.5.0', # temporary fix to issue #142
-            'tablib>=0.11.4',
+            'openpyxl', # temporary fix to issue #142
+            'tablib',
             'docopt']
-version = '0.5.3'
+version = '0.5.4'
 
 
 def read(f):
